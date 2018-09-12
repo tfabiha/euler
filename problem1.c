@@ -17,11 +17,11 @@ int main()
 
   int ans = 0;
 
-  for (int x = 0; x < 1000; x++)
+  for (int i = 0; i < 1000; i++)
   {
-    if ((x % 3 == 0) || (x % 5 == 0))
+    if ((i % 3 == 0) || (i % 5 == 0))
     {
-      ans += x;
+      ans += i;
     }
   }
 
